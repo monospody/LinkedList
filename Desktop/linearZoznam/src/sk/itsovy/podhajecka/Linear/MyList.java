@@ -90,7 +90,7 @@ public class MyList {
         Node temp = head;
         if (!(temp.getName() instanceof String ))
             return null;
-        
+
             while (temp != null) {
                 if (temp.getName().equals(name)) {
                     return temp;
